@@ -1,6 +1,17 @@
-import styled, {css} from 'styled-components';
+import styled, { css } from 'styled-components';
 
-export const Component = styled.div`
-  ${`
-  `}
-`;
+export const components = [
+  styled.div`
+    ${`
+    `}
+  `,
+  styled.div`
+    ${css`
+    `}
+  `,
+  styled.div`
+    ${css`
+      display: block;
+    `}
+  `,
+];
